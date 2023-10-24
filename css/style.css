@@ -63,18 +63,24 @@ header h2 {
 }
 
 button {
-  background-color: blue;
+  background-color: #222;
   color: #fff;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
   padding: 10px;
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 10px;
   border: none;
-  /* padding-left: 30px; */
-  /* margin-left: 60px; */
+  cursor: pointer;
   margin: 40px auto;
+}
+
+button:hover,
+button:focus {
+  opacity: 0.75;
+  transition: 0.7s;
 }
